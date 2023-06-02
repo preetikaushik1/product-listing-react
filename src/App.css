@@ -1,38 +1,60 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #dbdcdc;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 20px;
+}
+h1{
+  font-weight: 500;
+  color: rgb(114, 113, 113);
+}
+h3{
+  color: rgb(98, 97, 97) ;
 }
 
-.App-link {
-  color: #61dafb;
+
+.productlist{
+  width: 18%;
+  height: 380px;
+  float: left;
+  background-color: white;margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(84, 84, 84);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.img{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 5px;
 }
