@@ -11,7 +11,7 @@ class Product extends React.Component {
             productList: [
                 {
                     id: 1,
-                    productName: 'Classy Designe ,women top, Mustard colour',
+                    productName:  'Trendy Womens T-shirt',
                     productPrice: 'Rs. 200',
                     productdelivery: 'Free Delivery',
                     

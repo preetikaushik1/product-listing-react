@@ -39,10 +39,56 @@ h3{
   color: rgb(98, 97, 97) ;
 }
 
+.header{
+  width: 100%;
+  float: left;
+  margin-bottom: 60px;
+  background-color: white;
+  
+}
+.leftbox{
+  width: 40%;
+  float: left;
+
+text-align: left;
+
+
+}
+.rightbox{
+  width: 60%;
+  float: left;
+
+  padding: 20px 30px;
+
+}
+.nav{
+  font-size: 19px;
+  color: rgb(83, 83, 83);
+  text-align: right;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+span{
+  margin-right: 30px;
+}
+.color{
+  color: rgb(252, 21, 125);
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 0;
+}
+.img2{
+  width: 120px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
 
 .productlist{
   width: 18%;
-  height: 380px;
+padding-bottom: 20px;
   float: left;
   background-color: white;margin-left: 20px;
   margin-top: 20px;
@@ -57,4 +103,12 @@ h3{
   width: 100%;
   height: 250px;
   margin-bottom: 5px;
+  float: left;
+}
+
+
+@media screen and (min-width:320px) and(max-width:768px){
+  body{
+    background-color: aqua;
+  }
 }
