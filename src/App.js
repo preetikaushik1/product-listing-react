@@ -21,8 +21,8 @@ function App() {
         
 
         <h1>womens tshirt</h1>
-        <h3>Showing 201-220 out of 10000 products
-</h3>
+        <h5>Showing 201-220 out of 10000 products
+</h5>
         <Product/>
             </header>
     </div>
